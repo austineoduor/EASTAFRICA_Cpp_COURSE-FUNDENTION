@@ -1,0 +1,2 @@
+#!/bin/bash
+g++ -E $cppfile -o cpp
