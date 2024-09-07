@@ -58,7 +58,7 @@ bool Queue::dequeue(Item &item)
 Queue::~Queue()
 {
 	Node *temp;
-	while(front->next != nullptr)
+	while(front != nullptr)
 	{
 		temp = front;
 		front = front->next;
